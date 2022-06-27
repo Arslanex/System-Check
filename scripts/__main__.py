@@ -1,6 +1,6 @@
 import time
 
-from Cuda_Control import *
+from __core__ import *
 import os
 
 cc = CudaControl()
