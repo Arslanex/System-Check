@@ -21,10 +21,19 @@ if __name__ == "__main__":
         try:
             ans0 = int(input("=> "))
         except TypeError:
-            print("You have entered a wrong value,\n"
-                  "exiting the program . . .")
-            break
-
+            clear_terminal()
+            print("-" * 30)
+            print("You have entered a invalid value")
+            print("-" * 30)
+            ans0 = 9999
+            time.sleep(2.5)
+        except ValueError:
+            clear_terminal()
+            print("-" * 30)
+            print("You have entered a invalid value")
+            print("-" * 30)
+            ans0 = 9999
+            time.sleep(2.5)
         clear_terminal()
         if(ans0 == 0):
             break
