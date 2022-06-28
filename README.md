@@ -2,7 +2,7 @@
 ## Installation 
 1- Clone the repo 
 
-```git clone https://github.com/Arslanex/System-Check/edit/system_tests ```
+```git clone https://github.com/Arslanex/System-Check ```
 
 2- Install requirements
 
