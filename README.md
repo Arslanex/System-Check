@@ -1,17 +1,25 @@
 # System Check
 ## Installation 
-## Use Of the Program
-when you install the repo, go to console and run the __main__.py file. Like this :
+1- Clone the repo 
+
+```git clone https://github.com/Arslanex/System-Check/edit/system_tests ```
+
+2- Install requirements
+
+```pip install -r requirements.txt```
+
+3- Run main file 
 
 Windows:
-```
-python __main__.py
-```
+
+```python __main__.py```
+
 Linux:
-```
-python3 __main__.py
-```
-When the code starts running, a menu will be appear. In menu you can see everythng you can make with program. The diagram of choices has given below.
+
+```python3 __main__.py```
+
+## Use Of the Program
+When you install requirments and run the main file you will see the main menu and choices you can make in the progran. I put all the choices you can make wthin the program.
 
 ```
 Main Menu
@@ -32,3 +40,7 @@ Main Menu
 
 In every menu there is an option that does all the operations one after the other. 
 If you want a new feature please create a issue.  
+
+## Screen Shots
+![merge_from_ofoct (1)](https://user-images.githubusercontent.com/44752389/176218085-90fd76ea-e621-499f-8bba-9e81206c8da0.jpg)
+
