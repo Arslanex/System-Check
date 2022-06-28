@@ -117,6 +117,7 @@ if __name__ == "__main__":
             elif (ans1 == 4):
                 ans2 = input("Please enter a video path\n"
                              "=> ")
+                clear_terminal()
                 if (os.path.exists(ans2)):
                     cc.do_all("gpu", ans2)
                 else:
@@ -124,6 +125,7 @@ if __name__ == "__main__":
                           "\n create an issue on github")
                     ans4 = input("Dou you want to continue [Y/N]")
                     if(ans4 == "y" or ans4 == "Y" or ans4 == ""):
+                        clear_terminal()
                         cc.is_cuda_enabled()
                         cc.cpu_vs_gpu()
 

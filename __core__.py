@@ -145,8 +145,7 @@ class SystemInfo:
                             ans = input("\nPress a button to continue . . .")
                             if (ans != "q" and ans != "Q"):
                                 self.network_info()
-                                time.sleep(2.5)
-                                ans = input("\nPress a button to continue . . .")
+
 class CudaControl:
     def __init__(self):
         self.cudaEnabled = False
@@ -169,7 +168,7 @@ class CudaControl:
             self.cudaEnabled = False
 
     def cpu_vs_gpu(self):
-        print("GPU and CPU will be compared by performing the same operations on them")
+        print("\nGPU and CPU will be compared by performing the same operations on them")
         npTmp = np.random.random((1024, 1024)).astype(np.float32)
         npMat1 = np.stack([npTmp, npTmp], axis=2)
         npMat2 = npMat1
@@ -320,13 +319,10 @@ class CudaControl:
         time.sleep(.5)
         self.is_cuda_enabled()
         time.sleep(2.5)
-        ans = input("\nPress a button to continue . . .")
         self.cpu_vs_gpu()
         time.sleep(2.5)
-        ans = input("\nPress a button to continue . . .")
         self.fps_test(device, video)
         time.sleep(2.5)
-        ans = input("\nPress a button to continue . . .")
 
 def clear_terminal():
     pl = platform.system()
