@@ -121,25 +121,32 @@ class SystemInfo:
 
     def do_all(self):
         self.basic_info()
+        time.sleep(2.5)
         ans = input("\nPress a button to continue . . .")
         if (ans != "q" and ans != "Q"):
             self.cpu_info()
+            time.sleep(2.5)
             ans = input("\nPress a button to continue . . .")
             if (ans != "q" and ans != "Q"):
                 self.gpu_info()
+                time.sleep(2.5)
                 ans = input("\nPress a button to continue . . .")
                 if (ans != "q" and ans != "Q"):
                     self.ram_info()
+                    time.sleep(2.5)
                     ans = input("\nPress a button to continue . . .")
                     if (ans != "q" and ans != "Q"):
                         self.memory_info()
+                        time.sleep(2.5)
                         ans = input("\nPress a button to continue . . .")
                         if (ans != "q" and ans != "Q"):
                             self.disk_info()
+                            time.sleep(2.5)
                             ans = input("\nPress a button to continue . . .")
                             if (ans != "q" and ans != "Q"):
                                 self.network_info()
-
+                                time.sleep(2.5)
+                                ans = input("\nPress a button to continue . . .")
 class CudaControl:
     def __init__(self):
         self.cudaEnabled = False
@@ -313,10 +320,13 @@ class CudaControl:
         time.sleep(.5)
         self.is_cuda_enabled()
         time.sleep(2.5)
+        ans = input("\nPress a button to continue . . .")
         self.cpu_vs_gpu()
         time.sleep(2.5)
+        ans = input("\nPress a button to continue . . .")
         self.fps_test(device, video)
-
+        time.sleep(2.5)
+        ans = input("\nPress a button to continue . . .")
 
 def clear_terminal():
     pl = platform.system()
