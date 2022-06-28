@@ -13,7 +13,6 @@ setup(
     keywords='opencv,cuda, arslanex, computer system',
     install_requires=[
         'numpy',
-        'opencv-python',
         'psutil',
         'GPUtil'
     ],
