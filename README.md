@@ -4,11 +4,24 @@
 
 ```git clone https://github.com/Arslanex/System-Check ```
 
+```cd System-Check ```
+
 2- Install requirements
 
 ```pip install -r requirements.txt```
 
-3- Run main file 
+3- OpenCV installation
+There are two ways to install OpenCV package. 
+- First way you can use terminal for installation. But when you install like this OpenCV will not be enable to use CUDA. 
+
+    ```pip install opencv-python```
+
+- Second way you can build OpenCV with Cmake 
+    For Linux :: 
+    For Windows ::  https://drive.google.com/file/d/1XcZ0L99fTqlRhOl56nbNvEnUkm3lfq2F/view?usp=sharing (Türkçe)
+
+
+4- Run main file 
 
 Windows:
 
