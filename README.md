@@ -17,8 +17,8 @@ There are two ways to install OpenCV package.
     ```pip install opencv-python```
 
 - Second way you can build OpenCV with Cmake 
-    For Linux :: 
-    For Windows ::  https://drive.google.com/file/d/1XcZ0L99fTqlRhOl56nbNvEnUkm3lfq2F/view?usp=sharing (Türkçe)
+    - For Linux :: https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html (for nano)
+    - For Windows ::  https://drive.google.com/file/d/1XcZ0L99fTqlRhOl56nbNvEnUkm3lfq2F/view?usp=sharing (Türkçe)
 
 
 4- Run main file 
