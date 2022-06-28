@@ -1,21 +1,34 @@
-# Dynamic-ROV-Tests
+# System Check
+## Installation 
+## Use Of the Program
+when you install the repo, go to console and run the __main__.py file. Like this :
 
-## OpenCV Kurulumu 
-
-## Test Dosyaları
-Yapmanız gerekn tek şey gerekli dosyaları indirdikten sonra terminalden main dosyasını çalıştırmaktır. Bunun için terminal ile kod dosyasının bulunduğu dizine gitmeniz gerekmektedir. Daha sonrasında :
+Windows:
+```
+python __main__.py
+```
+Linux:
+```
+python3 __main__.py
+```
+When the code starts running, a menu will be appear. In menu you can see everythng you can make with program. The diagram of choices has given below.
 
 ```
-python main.py
+Main Menu
+├── System Check  (Menu 1)
+│   ├── Basic Info
+│   ├── CPU Info
+│   ├── GPU('s) Info
+│   ├── RAM Info
+│   ├── Memory Info
+│   ├── Disk Info
+│   ├── Network Info
+│
+├── CUDA and FPS Tests  (Menu 2)
+    ├── Is OpenCV CUDA Enabled
+    ├── CPU vs GPU 
+    ├── FPS Tests
 ```
 
-Program çalışmaya başladığında karşınıza seçenekleri gösteren bir menü çıkacaktır. Daha sonra isteğinize göre ilerleyebilirsiniz. Şuan kullanabileceğiniz seçenekler ve işlevleri aşağıda belirtilmiştir.
-
-### 1- CUDA ENABLED DEVICE CHECK
-Cihazınızda CUDA ile uyumlu, CUDA'yı kullanabilecek bir cihaz olup olmadığını kotrol eder ve eğr var ise sayısını size berlirtir. Eğer çıktı 0 ise GPU uyumlu OpenCV kurulumunu ve CUDA kurulumunu kontrol etmenizi öneririm.
-
-### 2- GPU vs CPU 
-GPU ve CPU arasındaki performans farkının çıktısını verir. Cihaz yeni açıldığında genellikle CPU'nun performansı GPU'dan fazla olsada seçeneği bir kez daha çalıştırdığınızda GPU'nun performansı fark edilebilr oranda artacaktır.
-
-### 3- BASIC FPS TEST
-Seçtiğini cihaz(GPU veya CPU) ile sizin belirttiğiniz videoyu kullanrak tahmini fps testi gerçekleştirir. Tabiki kullanılan çeşitli yöntemler ile FPS oranı artıp azalabilir. Kullanılan model, Thread yapısı gibi etmenler FPS oranınıza etkisi olan unsurlardır.
+In every menu there is an option that does all the operations one after the other. 
+If you want a new feature please create a issue.  
